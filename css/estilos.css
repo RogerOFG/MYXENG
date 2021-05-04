@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Helvetica'; 
+}
+
+/*Menu*/
+
+header{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+}
+
+.header-content{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px rgb(34, 60, 82) double; 
+}
+
+.logo img{
+    height: 100px;
+}
+
+.menu{
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: rgb(59, 55, 55);
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.menu nav ul li a{
+    color: #ffffff;
+}
+
+.menu nav ul li a:hover{
+    color: rgb(112, 198, 255);
+    transition: color 300ms;
+}
+
+.cuerpo{
+    width: 100%;
+}
+
+.titulares{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.titulares h1{
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+.titulares h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.titulares p{
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+.cuerpo img{
+    position: relative;
+    margin-top: 100px;
+    left: 85px;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+}
+
+.content{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
