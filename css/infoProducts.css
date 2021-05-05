@@ -1,0 +1,141 @@
+.cuerpo{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.caja-all{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separador{
+    height: 30px;
+    width: 100%;
+}
+
+/*--- -- Primera caja -- ---*/
+
+.caja-1{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caja-1 img{
+    display: flex;
+}
+
+.txt{
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txt p{
+    text-align: left;
+    font-size: 14px;
+}
+
+/*--- -- Segunda caja -- ---*/
+
+.caja-2{
+    width: 70%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 50px;
+}
+
+.caja-2 strong{
+    font-size: 30px;
+}
+
+/*--- -- Flechas de las caracteristicas -- ---*/
+
+.flecha{
+    width: 4%;
+    float: left;
+    padding-top: 25px;
+}
+
+.flecha svg{
+    margin-top: 50px;
+}
+
+.flecha-txt{
+    width: 95%;
+    float: right;
+}
+
+.flecha-txt .txt1{
+    margin-top: 28px;
+}
+
+.flecha-txt .txt2{
+    margin-top: 12px;
+}
+
+.flecha-txt .txt3{
+    margin-top: -7px;
+}
+
+.flecha-txt .txt4{
+    margin-top: 2px;
+}
+
+.flecha-txt .txt5{
+    margin-top: 20px;
+}
+
+.flecha-txt .txt6{
+    margin-top: 32px;
+}
+
+.flecha-txt .txt7{
+    margin-top: 44px;
+}
+
+.flecha-txt .txt8{
+    margin-top: 28px;
+}
+
+.flecha-txt .txt9{
+    margin-top: 34px;
+}
+
+/*--- -- Tercera caja -- ---*/
+
+.caja-3{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 50px;
+}
+
+.caja-3 strong{
+    font-size: 30px;
+}
+
+.boton{
+    width: 60%;
+    padding-top: 10px;
+}
+
+.boton button{
+    background: #fff;
+    border-color: #000000;
+    color: #000000;
+    height: 45px;
+    width: 75%;
+    text-align: center;
+}
+
+/*--- -- Cambio de color del boton -- ---*/
+
+.boton button:hover{
+    color: #fff;
+    background-color: #000000;
+}
