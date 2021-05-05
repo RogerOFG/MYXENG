@@ -99,9 +99,9 @@ header{
 }
 
 .cuerpo img{
-    position: relative;
-    margin-top: 100px;
-    left: 85px;
+    padding-top: 100px;
+    display:block;
+    margin:auto;
 }
 
 .footer{
@@ -116,4 +116,164 @@ header{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+/*--- -- Aqui empieza el Responsive -- ---*/
+
+@media screen and (max-width: 1583px){
+    .cuerpo img{
+        height: 600px;
+        width: 1420px;
+    }
+}
+
+@media screen and (max-width: 1430px){
+    .cuerpo img{
+        height: 550px;
+        width: 1320px;
+    }
+}
+
+@media screen and (max-width: 1340px){
+    .cuerpo img{
+        height: 550px;
+        width: 1220px;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    .cuerpo img{
+        height: 550px;
+        width: 1120px;
+    }
+}
+
+@media screen and (max-width: 1130px){
+    .cuerpo img{
+        height: 500px;
+        width: 1020px;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .header-content{
+        width: 60%;
+    }
+
+    .cuerpo img{
+        height: 480px;
+        width: 900px;
+    }
+
+    .content{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 910px){
+    .cuerpo img{
+        height: 460px;
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .cuerpo img{
+        height: 400px;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 710px){
+    .header-content{
+        width: 70%;
+    }
+    
+    .cuerpo img{
+        height: 350px;
+        width: 600px;
+    }
+
+    .content{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .titulares{
+        width: 60%;
+    }
+
+    .titulares h1{
+        font-size: 50px;
+    }
+
+    .titulares h2{
+        font-size: 25px;
+    }
+
+    .titulares p{
+        font-size: 20px;
+    }
+
+    .cuerpo img{
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .header-content{
+        width: 80%;
+    }
+
+    .titulares{
+        width: 65%;
+    }
+
+    .titulares h1{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .titulares h2{
+        font-size: 20px;
+    }
+
+    .titulares p{
+        font-size: 18px;
+    }
+
+    .cuerpo img{
+        margin-top: -50px;
+        height: 250px;
+        width: 400px;
+    }
+
+    .content{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .titulares{
+        width: 70%;
+    }
+
+    .titulares h1{
+        font-size: 35px;
+    }
+
+    .titulares h2{
+        font-size: 18px;
+    }
+
+    .titulares p{
+        font-size: 16px;
+    }
+
+    .cuerpo img{
+        height: 200px;
+        width: 300px;
+    }
 }
