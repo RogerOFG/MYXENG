@@ -1,6 +1,6 @@
-
 .caja{
     width: 53%;
+    height: auto;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -9,6 +9,8 @@
 
 .imgProducto img{
     height: 309px;
+    display:block;
+    margin:auto;
 }
 
 .caja-producto{
@@ -78,4 +80,292 @@
 .boton button:hover{
     color: rgb(0, 187, 187);
     background-color: #ffffff;
+}
+
+/*--- -- Aqui empieza el Responsive -- ---*/
+
+@media screen and (max-width: 1770px){
+    .caja-producto{
+    }
+    .producto{
+    }
+    .caja{
+        width: 60%;
+    }
+
+    .imgProducto img{
+        height: 330px;
+    }
+
+    .name{
+        top: 288px;
+    }
+}  
+
+@media screen and (max-width: 1730px){
+    .caja{
+        width: 65%;
+    }
+
+    .imgProducto img{
+        height: 350px;
+    }
+
+    .name{
+        top: 306px;
+        height: 44px;
+        width: 52%;
+    }
+}
+
+@media screen and (max-width: 1690px){
+    .caja{
+        width: 70%;
+    }
+
+    .caja-producto{
+        width: 30%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 1660px){
+    .caja-producto{
+        margin: 18px;
+    }
+
+    .imgProducto img{
+        height: 340px;
+    }
+
+    .name{
+        top: 296px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .imgProducto img{
+        height: 320px;
+    }
+
+    .name{
+        top: 276px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .imgProducto img{
+        height: 300px;
+    }
+
+    .name{
+        top: 256px;
+    }
+}
+
+@media screen and (max-width: 1420px){
+    .imgProducto img{
+        height: 280px;
+    }
+
+    .name{
+        top: 236px;
+    }
+}
+
+@media screen and (max-width: 1330px){
+    .caja-producto{
+        padding-bottom: 10px;
+    }
+
+    .imgProducto img{
+        height: 250px;
+    }
+
+    .text{
+        padding-top: 32px;
+        padding-bottom: 20px;
+    }
+
+    .precio{
+        width: 50%;
+        float: left;
+    }
+
+    .boton{
+        width: 40%;
+    }
+
+    .boton button{
+        width: 100%;
+    }
+
+    .precio strong{
+        font-size: 25px;
+    }
+
+    .name{
+        top: 206px;
+    }
+}
+
+@media screen and (max-width: 1210px){
+    .caja-producto{
+        margin: 16px;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .caja-producto{
+        margin: 14px;
+    }
+
+    .imgProducto img{
+        height: 220px;
+    }
+
+    .name{
+        top: 176px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .imgProducto img{
+        height: 200px;
+    }
+
+    .name{
+        top: 176px;
+        width: 65%;
+        height: 42px;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .caja{
+        width: 80%;
+    }
+
+    .precio strong{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .caja{
+        width: 90%;
+    }
+
+    .imgProducto img{
+        height: 240px;
+    }
+
+    .name{
+        top: 206px;
+        width: 65%;
+        height: 42px;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .caja{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .caja{
+        width: 50%;
+        display: inline-block;
+        margin-left: 210px;
+    }
+
+    .caja-producto{
+        width: 93%;
+        height: 570px;
+    }
+
+    .imgProducto img{
+        height: 300px;
+    }
+
+    .name{
+        top: 266px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .caja{
+        margin-left: 190px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .caja{
+        width: 60%;
+        margin-left: 130px;
+    }
+}   
+
+@media screen and (max-width: 530px){
+    .caja{
+        width: 70%;
+        margin-left: 80px;
+    }
+
+    .imgProducto img{
+        height: 310px;
+    }
+
+    .name{
+        top: 278px;
+    }
+
+    .caja-producto{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .caja{
+        margin-left: 60px;
+    }
+
+    .imgProducto img{
+        height: 270px;
+    }
+
+    .text p{
+        font-size: 15px;
+    }
+
+    .name{
+        top: 228px;
+    }
+
+    .caja-producto{
+        height: 580px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .caja{
+        margin-left: 50px;
+    }
+
+    .imgProducto img{
+        height: 220px;
+    }
+
+    .name{
+        top: 188px;
+    }
+
+    .caja-producto{
+        height: 550px;
+    }
 }
