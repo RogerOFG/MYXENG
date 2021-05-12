@@ -51,6 +51,12 @@ img{
     margin: 20px auto;
 }
 
+.contenedor-small{
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .contenedor-img{
     width: 100%;
     padding: 0 auto;
@@ -123,6 +129,11 @@ img{
     .med-span-12{ grid-column: span 12; }
 }
 
+@media screen and (max-width: 700px){
+    body{
+        background: #fff;
+    }
+}
 /* Columnas de Tamaño Pequeño - Celulares */
 
 @media screen and (max-width: 576px) {
@@ -236,7 +247,7 @@ form .input:focus{
     cursor: pointer;
     color: #fff;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 0;
     border-radius: 3px;
     text-align: center;
     line-height: 22px;
