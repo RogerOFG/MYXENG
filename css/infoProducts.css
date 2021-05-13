@@ -98,6 +98,19 @@
     margin-bottom: 100px;
 }
 
+/*--- -- PARA EL TEXTO EN EL MAIN || VENTAJAS Y DESVENTAJAS -- ---*/
+
+.texto-txt{
+    width: 88%;
+    float: right;
+    margin-top: 27px;
+    margin-bottom: 100px;
+}
+
+.texto-txt p{
+    font-size: 15px;
+}
+
 /*--- -- RESPONSIVE -- ---*/
 
 @media screen and (max-width: 1280px) {

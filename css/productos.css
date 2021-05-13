@@ -39,10 +39,15 @@
     height: 42px;
 }
 
+.name h4{
+    margin-top: 5px;
+}
+
 .text{
     padding-top: 42px;
     padding-bottom: 20px;
-    margin: 8px;
+    margin: 0 12px;
+    font-size: 17px;
 }
 
 .precio{
