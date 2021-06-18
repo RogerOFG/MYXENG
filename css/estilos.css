@@ -40,7 +40,7 @@ header{
     display: flex;
     justify-content: space-around;
     border-radius: 8px;
-    background-color: rgb(59, 55, 55);
+    background: radial-gradient(circle at top right,gray, black, gray);
 }
 
 .menu nav{
@@ -85,9 +85,27 @@ header{
     width: auto;
 }
 
+/*--- -- ANIMACIÓN -- ---*/
+
+.cuerpo .contenedor h1{
+    animation-name: title-animation;
+    animation-duration: 2s;
+}
+
+@keyframes title-animation {
+    from{
+        margin-top: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0;
+    }
+}
+
 /*--- -- FOOTER -- ---*/
 
-.footer{
+footer{
     position: absolute;
     width: 100%;
 }
@@ -100,6 +118,19 @@ header{
     margin-right: auto;
     text-align: center;
     font-size: 16px;
+}
+
+/*--- -- ANIMACION DE BOTON -- ---*/
+
+.boton .slide:focus,
+.boton .slide:hover{
+    color: #fff;
+    transition: .5s ease-out all;
+    box-shadow:inset 18.3em 0 0 0 var(--hover)
+}
+
+.boton .slide{
+    --color:#d6d6d6;--hover:#000
 }
 
 /*--- -- Aqui empieza el Responsive -- ---*/

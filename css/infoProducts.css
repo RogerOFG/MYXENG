@@ -62,9 +62,6 @@
     transition: .3s ease-out all;
 }
 
-.footer{
-    background: #fff;
-}
 
 /*--- -- FLECHAS -- ---*/
 
@@ -109,6 +106,12 @@
 
 .texto-txt p{
     font-size: 15px;
+}
+
+/*--- -- FOOTER -- ---*/
+
+footer{
+    background: #fff;
 }
 
 /*--- -- RESPONSIVE -- ---*/
