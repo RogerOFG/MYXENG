@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body.dark {
+    background: #000;
+}
+
 /*--- -- Menu -- ---*/
 
 header{
@@ -26,12 +30,28 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px rgb(34, 60, 82) double; 
+    border-bottom: 1px #223c52 double; 
+}
+
+body.dark .logo{
+    border-bottom: 1px #fff double; 
 }
 
 .logo img{
     height: 100px;
     width: auto;
+}
+
+.logo .white{
+    display: none;
+}
+
+body.dark .logo .black{
+    display: none;
+}
+
+body.dark .logo .white{
+    display: block;
 }
 
 .menu{
@@ -41,6 +61,10 @@ header{
     justify-content: space-around;
     border-radius: 8px;
     background: radial-gradient(circle at top right,gray, black, gray);
+}
+
+body.dark .menu{
+    background: radial-gradient(circle at top right, black, gray, black);
 }
 
 .menu nav{
@@ -72,6 +96,11 @@ header{
 }
 
 /*--- -- CUERPO DE LA PAGINA -- ---*/
+
+body.dark .cuerpo h1, 
+body.dark .cuerpo h3{
+    color: #fff;
+}
 
 .cuerpo{
     padding-top: 50px;
@@ -120,6 +149,10 @@ footer{
     font-size: 16px;
 }
 
+body.dark footer{
+    color: #fff;
+}
+
 /*--- -- ANIMACION DE BOTON -- ---*/
 
 .boton .slide:focus,
@@ -131,6 +164,102 @@ footer{
 
 .boton .slide{
     --color:#d6d6d6;--hover:#000
+}
+
+/*--- -- BOTON PARA IR HACIA A ARRIBA -- ---*/
+
+#button-up{
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle at top, black, gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer; 
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+body.dark #button-up{
+    background: radial-gradient(circle at top, #fff, #585858);
+}
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0, 0, 0, .1);
+    background: radial-gradient(circle at top, gray, black);
+}
+
+body.dark #button-up:hover{
+    background: radial-gradient(circle at top, #585858, #fff);
+}
+
+/* * ===================== */
+/* * ====== SWITCH ======= */
+/* * ===================== */
+
+#button-dark{
+    width: 75px;
+    height: 40px;
+    background: #343d5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 0 50px 50px 0;
+    font-size: 20px;
+    position: fixed;
+    top: 20px;
+}
+
+.switch {
+    background: #343d5b;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+    background: orange;
+    color: black;
+}
+
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+
+.switch span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
 }
 
 /*--- -- Aqui empieza el Responsive -- ---*/

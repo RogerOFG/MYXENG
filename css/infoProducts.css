@@ -53,6 +53,9 @@
     width: 100%;
 }
 
+body.dark .card{
+}
+
 /*--- -- Cambio de color del boton -- ---*/
 
 .boton button:hover{
@@ -112,6 +115,10 @@
 
 footer{
     background: #fff;
+}
+
+body.dark footer{
+    background: #000;
 }
 
 /*--- -- RESPONSIVE -- ---*/
