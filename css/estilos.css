@@ -364,6 +364,13 @@ body.dark #button-up:hover{
         height: 300px;
         width: 500px;
     }
+
+    #button-up{
+        width: 55px;
+        height: 55px;
+        bottom: 30px;
+        right: 15px;
+    }
 }
 
 @media screen and (max-width: 510px){
